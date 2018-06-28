@@ -8,7 +8,7 @@ end
 post '/add_task' do
   status 200
   @@tasks = params[:task]
-  "You add a new task:  #{params[:task]}"
+  "You add a new task: #{params[:task]}"
 end
 
 get '/tasks' do
